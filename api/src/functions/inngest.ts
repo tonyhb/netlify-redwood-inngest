@@ -1,13 +1,13 @@
 import { serve } from 'inngest/redwood'
 
 import helloWorld from 'src/jobs/inngest/helloWorld'
-import { INNGEST_APP_NAME } from 'src/lib/inngest'
+import { inngest } from 'src/lib/inngest'
 
 // Add your Inngest functions here
 const inngestFunctions = [helloWorld]
 
 // Serve your Inngest functions
-export const handler = serve(INNGEST_APP_NAME, inngestFunctions, {
+export const handler = serve(inngest, inngestFunctions, {
   servePath: '/inngest',
   /**
    * The minimum level to log from the Inngest serve endpoint.
