@@ -1,0 +1,5 @@
+[[plugins]]
+package = "netlify-plugin-inngest"
+
+[plugins.inputs]
+    path = "/.netlify/functions/inngest"

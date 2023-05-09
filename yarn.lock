@@ -18330,6 +18330,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"netlify-plugin-inngest@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "netlify-plugin-inngest@npm:1.0.0"
+  checksum: aec346cb1e44d229f2ca3ce3817f32c4245deb9cf7827a2b16669390e055d5f61fd21ee7c53ee29f45cc513bc6a88c507c630f7e112ffa1d0a1621b0bdadfe9a
+  languageName: node
+  linkType: hard
+
 "new-github-issue-url@npm:0.2.1":
   version: 0.2.1
   resolution: "new-github-issue-url@npm:0.2.1"
@@ -21581,6 +21588,7 @@ __metadata:
   dependencies:
     "@redwoodjs/core": 5.1.0
     inngest-setup-redwoodjs: ^0.4.3
+    netlify-plugin-inngest: ^1.0.0
   languageName: unknown
   linkType: soft
 
