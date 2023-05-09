@@ -10,5 +10,5 @@ export const inngest = new Inngest({
    * resides in.
    */
   name: INNGEST_APP_NAME,
-  env: process.env.BRANCH,
+  env: "TEST-BRANCH-NAME",
 })
