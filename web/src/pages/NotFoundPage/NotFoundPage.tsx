@@ -40,7 +40,7 @@ export default () => (
     <section>
       <h1>
         <span>404 Page Not Found</span>
-        <span>{env}</span>
+        <span>env: "{env}"</span>
       </h1>
     </section>
   </main>
