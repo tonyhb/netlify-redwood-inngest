@@ -1,3 +1,5 @@
+const env = process.env.BRANCH;
+
 export default () => (
   <main>
     <style
@@ -38,6 +40,7 @@ export default () => (
     <section>
       <h1>
         <span>404 Page Not Found</span>
+        <span>{env}</span>
       </h1>
     </section>
   </main>
