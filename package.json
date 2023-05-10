@@ -9,6 +9,7 @@
   "devDependencies": {
     "@redwoodjs/core": "5.1.0",
     "inngest-setup-redwoodjs": "^0.4.3",
+    "netlify-plugin-inline-functions-env-typescript": "^1.2.1",
     "netlify-plugin-inngest": "^1.0.0"
   },
   "eslintConfig": {

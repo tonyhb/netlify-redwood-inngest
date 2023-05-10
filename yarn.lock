@@ -388,7 +388,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.21.8, @babel/core@npm:^7.1.0, @babel/core@npm:^7.11.1, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.10, @babel/core@npm:^7.12.3, @babel/core@npm:^7.12.9, @babel/core@npm:^7.13.16, @babel/core@npm:^7.14.0, @babel/core@npm:^7.7.5":
+"@babel/core@npm:7.21.8, @babel/core@npm:^7.1.0, @babel/core@npm:^7.11.1, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.0, @babel/core@npm:^7.12.10, @babel/core@npm:^7.12.3, @babel/core@npm:^7.12.9, @babel/core@npm:^7.13.16, @babel/core@npm:^7.14.0, @babel/core@npm:^7.7.5":
   version: 7.21.8
   resolution: "@babel/core@npm:7.21.8"
   dependencies:
@@ -1707,7 +1707,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-typescript@npm:7.21.3, @babel/plugin-transform-typescript@npm:^7.21.3":
+"@babel/plugin-transform-typescript@npm:7.21.3, @babel/plugin-transform-typescript@npm:^7.15.8, @babel/plugin-transform-typescript@npm:^7.21.3":
   version: 7.21.3
   resolution: "@babel/plugin-transform-typescript@npm:7.21.3"
   dependencies:
@@ -8921,6 +8921,13 @@ __metadata:
   version: 7.0.0-beta.0
   resolution: "babel-plugin-syntax-trailing-function-commas@npm:7.0.0-beta.0"
   checksum: 67e3d6a706637097526b2d3046d3124d3efd3aac28b47af940c2f8df01b8d7ffeb4cdf5648f3b5eac3f098f5b61c4845e306f34301c869e5e14db6ae8b77f699
+  languageName: node
+  linkType: hard
+
+"babel-plugin-transform-inline-environment-variables@npm:^0.4.3":
+  version: 0.4.4
+  resolution: "babel-plugin-transform-inline-environment-variables@npm:0.4.4"
+  checksum: f1bb9d57e83184a8413939032c570a286447186e6b78fdc0d3cade4dcab51955d3b549d2a0af4f866b172221d287d67a9f4e6d742de7df4c411fe085e20aadeb
   languageName: node
   linkType: hard
 
@@ -18354,6 +18361,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"netlify-plugin-inline-functions-env-typescript@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "netlify-plugin-inline-functions-env-typescript@npm:1.2.1"
+  dependencies:
+    "@babel/core": ^7.12.0
+    "@babel/plugin-transform-typescript": ^7.15.8
+    babel-plugin-transform-inline-environment-variables: ^0.4.3
+  checksum: b0780b46509b58e4608dcfc7cff101cd16a0740c097f653c5c96e46676d31d49b9037e87da443745a180c71ccc74ea085e85605859644bc3283653aeeddd20b4
+  languageName: node
+  linkType: hard
+
 "netlify-plugin-inngest@npm:^1.0.0":
   version: 1.0.0
   resolution: "netlify-plugin-inngest@npm:1.0.0"
@@ -21612,6 +21630,7 @@ __metadata:
   dependencies:
     "@redwoodjs/core": 5.1.0
     inngest-setup-redwoodjs: ^0.4.3
+    netlify-plugin-inline-functions-env-typescript: ^1.2.1
     netlify-plugin-inngest: ^1.0.0
   languageName: unknown
   linkType: soft
