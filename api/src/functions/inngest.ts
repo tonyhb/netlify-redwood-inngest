@@ -9,7 +9,6 @@ const inngestFunctions = [helloWorld, testFunction]
 
 // Serve your Inngest functions
 export const handler = serve(inngest, inngestFunctions, {
-  servePath: '/inngest',
   /**
    * The minimum level to log from the Inngest serve endpoint.
    *

@@ -3,6 +3,9 @@
   included_files = ["api/dist/**/*.js"]
 
 [[plugins]]
+package = "netlify-plugin-inline-functions-env"
+
+[[plugins]]
 package = "netlify-plugin-inngest"
 
 [plugins.inputs]
