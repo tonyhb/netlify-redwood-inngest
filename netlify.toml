@@ -3,10 +3,11 @@
   included_files = ["api/dist/**/*.js"]
 
 [[plugins]]
-package = "netlify-plugin-inline-functions-env-typescript"
-
-[[plugins]]
 package = "netlify-plugin-inngest"
 
 [plugins.inputs]
     path = "/.netlify/functions/inngest"
+
+[[plugins]]
+package = "netlify-plugin-inline-functions-env-typescript"
+
