@@ -8125,6 +8125,7 @@ __metadata:
     "@redwoodjs/api": 5.1.0
     "@redwoodjs/graphql-server": 5.1.0
     envelop-plugin-inngest: ^0.5.1
+    inngest: 1.8.2
   languageName: unknown
   linkType: soft
 
@@ -15095,6 +15096,29 @@ __metadata:
   bin:
     inngest-init: init.js
   checksum: 469df882810769ac16ce3a3e48d6d66cf3b7eab5482f522a130befa91d9cdc499f54776462a360aced2ad88570f9b29f7b90f9fcd3c15728a79c362a62f1ee7a
+  languageName: node
+  linkType: hard
+
+"inngest@npm:1.8.2":
+  version: 1.8.2
+  resolution: "inngest@npm:1.8.2"
+  dependencies:
+    buffer: ^6.0.3
+    canonicalize: ^1.0.8
+    chalk: ^4.1.2
+    cross-fetch: ^3.1.5
+    h3: ^1.0.2
+    hash.js: ^1.1.7
+    ms: ^2.1.3
+    queue-microtask: ^1.2.3
+    serialize-error-cjs: ^0.1.3
+    type-fest: ^3.5.1
+    zod: ^3.19.1
+  peerDependencies:
+    typescript: ">=4.7.2"
+  bin:
+    inngest-init: init.js
+  checksum: e538c32ce2bfd4369041ebdfcc70d46335fc46990ec52335ec4a0bf1cb80ec077a9c5eb6895f894d3b0f4582f29feeb39295c4c8a2c89fc64bc3c7d7ea4939a0
   languageName: node
   linkType: hard
 
