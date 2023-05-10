@@ -4,10 +4,11 @@
 
 [[plugins]]
 package = "netlify-plugin-inngest"
-
-[plugins.inputs]
-    path = "/.netlify/functions/inngest"
+  [plugins.inputs]
+  path = "/.netlify/functions/inngest"
 
 [[plugins]]
 package = "netlify-plugin-inline-functions-env-typescript"
+  [plugins.inputs]
+  verbose = true
 
